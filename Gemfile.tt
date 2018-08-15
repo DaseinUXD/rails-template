@@ -21,6 +21,7 @@ gem "rails", "~> <%= Rails.version %>"
 gem "sass-rails"<%= gemfile_requirement("sass-rails") %>
 gem "sidekiq", ">= 4.2.0"
 gem "turbolinks"<%= gemfile_requirement("turbolinks") || ', ">= 2.5.2"' %>
+gem "tzinfo-data"
 
 group :production, :staging do
   gem "postmark-rails"
